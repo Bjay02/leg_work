@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.big-container {
+  background-color: black;
+  margin: 100px 20px;
+  border-radius: 20px;
+  padding: 100px;
+  text-align: center;
+  justify-content: center;
+}
+.big-container h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.big-container p {
+  color: white;
+}
+
+.medium-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  max-width: 310px;
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+i {
+  color: white;
+  font-size: 32px;
+}
